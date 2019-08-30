@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Document</title>
+</head>
+
+<body>
+        
+    <div class="row" id="everything">
+        <div class="col-sm-12">
+            <div class="jumbotron" id="trainheader">
+                <h1 class="display-4">I wanna ride on a choo choo train</h1>
+                <h2>I wanna ride it all across the USA</h2>
+
+            </div>
+            <table class="table" id="tabla">
+                <thead>
+                    <tr>
+                        <th scope="col">Train Name</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Frequency (min)</th>
+                        <th scope="col">Next Arrival</th>
+                        <th scope="col">Minutes Away</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td id=""></td>
+                        <td id=""></td>
+                        <td id=""></td>
+                        <td id=""></td>
+                        <td id=""></td>
+                        
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row" id="everythingelse">
+        <div class="col-sm-12">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Train Name</label>
+                    <input type="text" class="form-control" id="trainName" 
+                        placeholder="Train Name">
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Destination</label>
+                    <input type="text" class="form-control" id="destination" 
+                        placeholder="Destination">
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">First Train Time </label>
+                    <input type="text" class="form-control" id="trainTime" 
+                        placeholder="First Train Time (HH:mm-military time)">
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Frequency (min)</label>
+                    <input type="text" class="form-control" id="frequency" 
+                        placeholder="Frequency (min)">
+
+                </div>
+            </form>
+                <button id="submit" class="btn btn-primary">Submit</button>
+            
+        </div>
+    </div>
+</body>
+<script src="assets/app.js"></script>
+
+</html>
